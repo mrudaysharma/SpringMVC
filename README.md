@@ -1,3 +1,7 @@
+#Note
+Deploy this application on Tomcat 8 with port 8084
+
+
 # Programming Exercise: Procedure scheduling Web App
 Implement a study scheduling application in which procedures for treatment of patients performed
 by doctors are planned. The data is modelled via domain objects.
