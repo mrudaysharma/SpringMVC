@@ -2,7 +2,7 @@
 
 angular.module('myApp').factory('DoctorService', ['$http', '$q', function($http, $q){
 
-    var REST_SERVICE_URI = 'http://localhost:8084/Spring4MVCCRUDRestService/doctor/';
+    var REST_SERVICE_URI = 'http://localhost:8084/scapeapp/doctor/';
 
     var factory = {
         fetchAllDoctors: fetchAllDoctors

@@ -2,7 +2,7 @@
 
 angular.module('myApp').factory('RoomService', ['$http', '$q', function($http, $q){
 
-    var REST_SERVICE_URI = 'http://localhost:8084/Spring4MVCCRUDRestService/room/';
+    var REST_SERVICE_URI = 'http://localhost:8084/scapeapp/room/';
 
     var factory = {
         fetchAllRooms: fetchAllRooms
