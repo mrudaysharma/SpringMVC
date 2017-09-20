@@ -53,10 +53,9 @@ chosen build tool and Oracle JDK 8.
 ## Postman
 This tool helps to create study and patient object into database
 
-
-http://localhost:8084/scapeapp/study/createOrupdate
 ### Create Study
-´´´json
+http://localhost:8084/scapeapp/study/createOrupdate
+```json
 {
 "description": "Fever",
 "isPlanned":1,
@@ -65,13 +64,13 @@ http://localhost:8084/scapeapp/study/createOrupdate
 "startDate":"10.10.2017 10:10:10",
 "patientId":1
 }
-´´´
-http://localhost:8084/scapeapp/patient/createOrupdate
+```
 ### Create Patient
-´´´json
+http://localhost:8084/scapeapp/patient/createOrupdate
+```json
 {
 "name": "Uday",
 "gender":"M",
 "roomName":"1.101"
 }
-´´´
+```
