@@ -49,3 +49,29 @@ Hand over:
 Bundle complete source (no compiled classes or jar) and additional files like build scripts into a zip
 archive and send it per mail to Oliver.Welter@s-cape.com . The content must compile with the
 chosen build tool and Oracle JDK 8.
+
+## Postman
+This tool helps to create study and patient object into database
+
+
+http://localhost:8084/scapeapp/study/createOrupdate
+### Create Study
+´´´json
+{
+"description": "Fever",
+"isPlanned":1,
+"isFinished":0,
+"isInprogress":0,
+"startDate":"10.10.2017 10:10:10",
+"patientId":1
+}
+´´´
+http://localhost:8084/scapeapp/patient/createOrupdate
+### Create Patient
+´´´json
+{
+"name": "Uday",
+"gender":"M",
+"roomName":"1.101"
+}
+´´´
