@@ -11,10 +11,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- *
- * @author bytesTree
- * @see <a href="http://www.bytestree.com/">BytesTree</a>
- *
+ * 
+ * @author uysharma
  */
 @Service("doctorService")
 @Transactional(readOnly = true)
