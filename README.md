@@ -45,10 +45,7 @@ decision during review
 rooms and doctors are already available after start of the application.
 - Rooms and doctors can be implemented within the code base. No need for exposing
 creation, update or deletion of rooms and doctors via interface.
-Hand over:
-Bundle complete source (no compiled classes or jar) and additional files like build scripts into a zip
-archive and send it per mail to Oliver.Welter@s-cape.com . The content must compile with the
-chosen build tool and Oracle JDK 8.
+
 
 ## Postman
 This tool helps to create study and patient object into database
